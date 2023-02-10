@@ -10,7 +10,7 @@ import {
 function Resume({ income, expense, total }) {
   return (
     <C.Container>
-      <ResumeItem
+      <ResumeItem 
         title="Entradas"
         Icon={FaRegArrowAltCircleUp}
         value={income}
